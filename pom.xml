@@ -23,4 +23,16 @@
     <module>java</module>
   </modules>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>animal-sniffer-maven-plugin</artifactId>
+          <version>1.17</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
 </project>
